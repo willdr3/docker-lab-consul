@@ -1,4 +1,5 @@
-FROM ubuntu:16.04 MAINTAINER Dan Williamson <willdr3@student.op.ac.nz> 
+FROM ubuntu:16.04
+MAINTAINER Dan Williamson <willdr3@student.op.ac.nz> 
 ENV REFRESHED_AT 16-08-2016
 
 RUN apt-get -qqy update
